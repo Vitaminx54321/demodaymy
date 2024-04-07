@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Cтоловая Eatly</title>
+   <link rel="stylesheet" href="./styles/normalize.css">
+   <link rel="stylesheet" href="./styles/style.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+<body>
+   <header class="header">
+      <div class="header__content container">
+         <div class="header__content__right">
+            <a href="index.html" class="header__logo">
+               <img src="./img/Logo.svg" alt="Eatly Logo">
+            </a>
+            <nav class="header__nav">
+               <ul class="nav__list">
+                  <li class="nav__item"><a href="#menu" class="nav__link">Menu</a></li>
+                  <li class="nav__item"><a href="blog.html" class="nav__link">Blog</a></li>
+                  <li class="nav__item"><a href="#pricing" class="nav__link">Pricing</a></li>
+                  <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+               </ul>
+            </nav>
+         </div>
+         <div class="header__btn__left">
+            <button class="header__btn login__btn">Login</button>
+            <button class="header__btn sign__btn">Sign Up</button>
+         </div>
+      </div>
+   </header>
+
+   <main>
+      <section class="hero">
+         <div class="hero__content container container__padding">
+            <div class="hero__left">
+               <img class="hero__left__img" src="./img/Over_1000.jpg" alt="1000">
+               <h1 class="hero__title animate__animated animate__flip">Enjoy Foods All Over The <span class="colortext">World</span></h1>
+               <p class="hero__descr">
+                  EatLy help you set saving goals, earn cash back offers,
+                  Go to disclaimer for more details and get paychecks up to
+                  two days early. Get a <span class="colortext">$20 bonus.</span>
+               </p>
+               <div class="hero__btns">
+                  <button class="hero__btn__getstarted">Get Started</button>
+                  <button class="hero__btn__gopro">Go Pro</button>
+               </div>
+               <img class="hero__left__img" src="./img/TrustReviews.jpg" alt="reviews">
+            </div>
+            <div class="hero__right">
+               <img class="hero__img2" src="./img/1st.png" alt="order">
+               <img class="hero__img" src="./img/Food_Image.png" alt="plate">
+               <img class="hero__img3" src="./img/Graph.png" alt="graf">
+            </div>
+         </div>
+      </section>
+      <section class="about">
+         <ul class="about__content">
+            <li class="about__item">
+               <h2 class="about__title">10K+</h2>
+               <p class="about__descr">Satisfied Costumers </p>
+               <p class="about__descr"> All Great Over The World </p>
+            </li>
+            <li class="about__item">
+               <h2 class="about__title">4M</h2>
+               <p class="about__descr">Healthy Dishes Sold </p>
+               <p class="about__descr"> Including Milk Shakes Smooth</p>
+            </li>
+            <li class="about__item">
+               <h2 class="about__title">99.99%</h2>
+               <p class="about__descr">Reliable Customer Support</p>
+               <p class="about__descr"> We Provide Great Experiences</p>
+            </li>
+         </ul>
+      </section>
+      <section class="downloadapp">
+         <div class="downloadapp__content container container__padding conteiner__border ">
+            <div class="downloadapp__content__left">
+               <img class="downloadapp__img" src="./img/Mobile_Screen.png" alt="phoneapp">
+            </div>
+            <div class="downloadapp__content__right">
+               <h2 class="downloadapp__content__title">Premium <span class="colortext">Quality</span> For Your Health
+               </h2>
+               <ul class="downloadapp__list">
+                  <li class="downloadapp__item">
+                     Premium quality food is made with ingredients that are packed with essential vitamins, minerals.
+                  </li>
+                  <li class="downloadapp__item">
+                     These foods promote overall wellness by support healthy digestion and boosting immunity
+                  </li>
+               </ul>
+               <a href="https://apps.apple.com/us/app/eatly/id1580698746" class="downloadapp__btn">
+                  Download
+                  <img class="arrow__img" src="./img/Arrow.svg" alt="Arrow">
+               </a>
+            </div>
+         </div>
+      </section>
+      <section class="restaurants">
+         <div class="restaurants__content container container__padding conteiner__border">
+            <h2 class="restaurants__title">Our Top <span class="colortext">Restaurants</span></h2>
+            <ul class="restaurants__list">
+               <li class="restaurants__item">
+                  <div class="restaurants__img">
+                     <img src="./img/Resturent_Image_3.jpg" alt="The Chiken King image">
+                  </div>
+                  <div class="restaurants__info">
+                     <div class="restaurants__tag tag tag__red">Healthy</div>
+                     <h3 class="restaurants__name">The Chiken King</h3>
+                     <div class="restaurants__bottom">
+                        <div class="restaurants__dur">24 min -
+                           <span class="restaurants__raiting raiting">4.8 </span>
+                        </div>
+                        <button class="restaurants__icon">
+                           <img src="./img/Bookmark.svg" alt="Bookmark">
+                        </button>
+                     </div>
+                  </div>
+               </li>
+               <li class="restaurants__item">
+                  <div class="restaurants__img">
+                     <img src="./img/Resturent_Image2.jpg" alt="The Burger King image">
+                  </div>
+                  <div class="restaurants__info">
+                     <div class="restaurants__tag tag tag__yellow">Tranding</div>
+                     <h3 class="restaurants__name">The Burger King</h3>
+                     <div class="restaurants__bottom">
+                        <div class="restaurants__delivery">24 min -
+                           <span class="restaurants__raiting">4.9 </span>
+                        </div>
+                        <button class="restaurants__icon">
+                           <img src="./img/Bookmark.svg" alt="Bookmark">
+                        </button>
+                     </div>
+                  </div>
+               </li>
+               <li class="restaurants__item">
+                  <div class="restaurants__img">
+                     <img src="./img/Resturent_Image_3.jpg" alt="The Chiken King image">
+                  </div>
+                  <div class="restaurants__info">
+                     <div class="restaurants__tag tag tag__red">Healthy</div>
+                     <h3 class="restaurants__name">The Chiken King</h3>
+                     <div class="restaurants__bottom">
+                        <div class="restaurants__delivery">24 min -
+                           <span class="restaurants__raiting">4.8</span>
+                        </div>
+                        <button class="restaurants__icon">
+                           <img src="./img/Bookmark.svg" alt="Bookmark">
+                        </button>
+                     </div>
+                  </div>
+               </li>
+            </ul>
+            <div class="restaurants__button">
+               <a href="#" class="restaurants__btn ">
+                  <img src="./img/View_All.png" alt="view all">
+               </a>
+            </div>
+         </div>
+      </section>
+      <section class="dishes">
+         <div id="menu" class="container container__padding conteiner__border">
+            <h2 class="dishes__title">Our Top <span class="colortext">Dishes</span></h2>
+            <ul class="dishes__list">
+               <li class="dishes__item">
+                  <img class="dishes__img" src="./img/Food_Card_01.png" alt="dishes1">
+               </li>
+               <li class="dishes__item">
+                  <img class="dishes__img" src="./img/Food_Card_02.png" alt="dishes1">
+               </li>
+               <li class="dishes__item">
+                  <img class="dishes__img" src="./img/Food_Card_03.png" alt="dishes1">
+               </li>
+               <li class="dishes__item">
+                  <img class="dishes__img" src="./img/Food_Card_01.png" alt="dishes1">
+               </li>
+               <li class="dishes__item">
+                  <img class="dishes__img" src="./img/Food_Card_02.png" alt="dishes1">
+               </li>
+            </ul>
+            <div class="restaurants__button">
+               <a href="#" class="restaurants__btn ">
+                  <img src="./img/View_All.png" alt="view all">
+               </a>
+            </div>
+         </div>
+      </section>
+      <section class="purchase">
+         <div class="container  purchase__container container__padding conteiner__border">
+            <div class="purchase__content__left">
+               <h2 class="purchase__title">Control <span class="colortext">Purchases</span> Via Dashboard</h2>
+               <ul class="purchase__list">
+                  <li class="purchase__item">
+                     <div class="purchase__item__img">
+                        <img src="./img/Image.png" alt="Chiken image">
+                     </div>
+                     <div class="purchase__item__info">
+                        <h2 class="purchase__item__name">Chiken Hell</h2>
+                        <p class="purchase__item__status">On The Way</p>
+                        <div class="purchase__item__time">3:09 PM</div>
+                     </div>
+                  </li>
+                  <li class="purchase__item">
+                     <div class="purchase__item__img">
+                        <img src="./img/Image(1).png" alt="Swedish image">
+                     </div>
+                     <div class="purchase__item__info">
+                        <h2 class="purchase__item__name">Swe Dish</h2>
+                        <p class="purchase__item__status">Deliveried</p>
+                        <div class="purchase__item__time">Yesterday</div>
+                     </div>
+                  </li>
+                  <li class="purchase__item">
+                     <div class="purchase__item__img">
+                        <img src="./img/Image(2).png" alt="Fish image">
+                     </div>
+                     <div class="purchase__item__info">
+                        <h2 class="purchase__item__name">Fish Hel Veg</h2>
+                        <p class="purchase__item__status purchase__item__status__red">Canceled</p>
+                        <div class="purchase__item__time">Yesterday</div>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+            <div class="purchase__content__right__graph">
+               <div class="purchase__graph__header">
+                  <h3 class="purchase__graph__title">Purchases</h3>
+                  <select class="purchase__select" name="timeline">
+                     <option class="purchase__value" value="mounth">This mounth</option>
+                     <option class="purchase__value" value="week">This week</option>
+                     <option class="purchase__value" value="year">This year</option>
+                  </select>
+               </div>
+               <ul class="purchase__graph__list">
+                  <li class="purchase__graph__item purchase__graph__item__purpule">
+                     <div class="purchase__graph__inner">
+                        <span class="purchase__graph__icon"></span>
+                        <div class="purchase__graph__about">
+                           <h4 class="purchase__graph__name">Expense</h4>
+                           <p class="purchase__graph__text">Increased By 10%</p>
+                        </div>
+                     </div>
+                     <div class="purchase__graph__cost">$409.00</div>
+                  </li>
+                  <li class="purchase__graph__item purchase__graph__item__yellow">
+                     <div class="purchase__graph__inner">
+                        <span class="purchase__graph__icon"></span>
+                        <div class="purchase__graph__about">
+                           <h4 class="purchase__graph__name">Vocher Usage</h4>
+                           <p class="purchase__graph__text">Increased By 10%</p>
+                        </div>
+                     </div>
+                     <div class="purchase__graph__cost">$45.78</div>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </section>
+      <section class="review">
+         <div class="container container__padding">
+            <h2 class="review__title title"><span class="colortext">Customer</span> Say</h2>
+            <div class="swiper-container">
+               <div class="swiper-wrapper">
+                  <div class="review__item swiper-slide">
+                     <div class="review__header">
+                        <div class="review__img">
+                           <img src="./img/Pic.png" alt="review writer image">
+                        </div>
+                        <div class="review__info">
+                           <div class="review__name">Alexander R.</div>
+                           <div class="review__slogan">01 Year With Us</div>
+                        </div>
+                     </div>
+                     <p class="review__text">“ Online invoice payment helps companies save time, are faster and save
+                        maximum effort for the clients and save maximum effort. Online invoice payment helps companies
+                        save time ”</p>
+                     <div class="review__raiting">
+                        <img src="./img/Star.svg" alt="Star raiting icon">
+                        <img src="./img/Star.svg" alt="Star raiting icon">
+                        <img src="./img/Star.svg" alt="Star raiting icon">
+                        <img src="./img/Star.svg" alt="Star raiting icon">
+                        <img src="./img/Star.svg" alt="Star raiting icon">
+                     </div>
+                  </div>
+                  <div class="review__item swiper-slide">
+                     <div class="review__header">
+                        <div class="review__img">
+                           <img src="./img/Pic.png" alt="review writer image">
+                        </div>
+                        <div class="review__info">
+                           <div class="review__name">Alexander R.</div>
+                           <div class="review__slogan">01 Year With Us</div>
+                        </div>
+                     </div>
+                     <p class="review__text">“ Online invoice payment helps companies save time, are faster and save
+                        maximum effort for the clients and save maximum effort. Online invoice payment helps companies
+                        save time ”</p>
+                     <div class="review__raiting">
+                        <img src="./img/Star.svg" alt="Star raiting icon">
+                        <img src="./img/Star.svg" alt="Star raiting icon">
+                        <img src="./img/Star.svg" alt="Star raiting icon">
+                        <img src="./img/Star.svg" alt="Star raiting icon">
+                        <img src="./img/Star.svg" alt="Star raiting icon">
+                     </div>
+                  </div>
+                  <div class="review__item swiper-slide">
+                     <div class="review__header">
+                        <div class="review__img">
+                           <img src="./img/Pic.png" alt="review writer image">
+                        </div>
+                        <div class="review__info">
+                           <div class="review__name">Alexander R.</div>
+                           <div class="review__slogan">01 Year With Us</div>
+                        </div>
+                     </div>
+                     <p class="review__text">“ Online invoice payment helps companies save time, are faster and save
+                        maximum effort for the clients and save maximum effort. Online invoice payment helps companies
+                        save time ”</p>
+                     <div class="review__raiting">
+                        <img src="./img/Star.svg" alt="Star raiting icon">
+                        <img src="./img/Star.svg" alt="Star raiting icon">
+                        <img src="./img/Star.svg" alt="Star raiting icon">
+                        <img src="./img/Star.svg" alt="Star raiting icon">
+                        <img src="./img/Star.svg" alt="Star raiting icon">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="sale">
+         <div class="container container__padding">
+            <div class="sale__content">
+               <h2 class="sale__title">Get 50%</h2>
+               <form action="https://jsonplaceholder.typicode.com/posts" method="post" target="_blank" class="sale__form">
+                  <input type="email" name="email" placeholder="Enter Your Email Adress" class="sale__input" required>
+                  <div class="sale__button">
+                     <button type="submit" class="sale__btn">Subscribe</button>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </section>
+   </main>
+   <footer class="footer">
+      <div class="footer__content" id="contact">
+         <div class="footer__content__up">
+            <a class="header__logo">
+               <img src="./img/Logo.svg" alt="Eatly Logo">
+            </a>
+            <nav class="header__nav">
+               <ul class="nav__list">
+                  <li class="nav__item"><a href="blog.html" class="nav__link">Blog</a></li>
+                  <li class="nav__item"><a href="#pricing" class="nav__link">Pricing</a></li>
+                  <li class="nav__item"><a href="#aboutus" class="nav__link">About Us</a></li>
+                  <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+               </ul>
+            </nav>
+         </div>
+
+         <ul class="footer__content__down">
+
+            <li class="footer_item">
+               <span class="footer_discription">© 2023 EATLY All Rights Reserved.</span>
+            </li>
+            <li class="footer_item">
+               <a href="#">
+                  <img class="footer__social" src="./img/instagram.svg" alt="instagram">
+               </a>
+               <a href="#">
+                  <img class="footer__social" src="./img/LinkedIn.svg" alt="LinkedIn">
+               </a>
+               <a href="#">
+                  <img class="footer__social" src="./img/Facebook.svg" alt="facebook">
+               </a>
+               <a href="#">
+                  <img class="footer__social" src="./img/twitter.svg" alt="twitter">
+               </a>
+            </li>
+         </ul>
+      </div>
+   </footer>
+   <script type="text/javascript" src="./js/slick.mini.js"></script>
+</body>
+
+</html>
